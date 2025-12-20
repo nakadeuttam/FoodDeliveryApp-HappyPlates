@@ -1,0 +1,59 @@
+.admin-login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+}
+
+.admin-login-container .card {
+  border-radius: 1rem;
+  max-width: 500px;
+  width: 100%;
+}
+
+.admin-login-container .card-body {
+  padding: 2rem;
+}
+
+.admin-login-container .card-title {
+  font-size: 1.75rem;
+  font-weight: 300;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.admin-login-container .form-control {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+}
+
+.admin-login-container .form-floating > label {
+  padding: 1rem 0.75rem;
+}
+
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.btn-login:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .admin-login-container .card-body {
+    padding: 1.5rem;
+  }
+  
+  .admin-login-container .card-title {
+    font-size: 1.5rem;
+  }
+}
